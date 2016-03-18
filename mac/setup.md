@@ -4,17 +4,17 @@
 
 ### Prereqs
 
-#### Command Line Tools
+**Command Line Tools**
 
 `xcode-select --install`
 
-#### Homebrew
+**Homebrew**
 
 http://brew.sh
 
 `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-### Tools & Software (via Homebrew)
+### Tools & Software
 
 **Via Homebrew**
 
