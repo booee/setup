@@ -2,26 +2,39 @@
 
 ## Installs
 
-Use [Homebrew](http://brew.sh)
+### Prereqs
 
-**Installing Homebrew**
+#### Command Line Tools
+
+`xcode-select --install`
+
+#### Homebrew
+
+http://brew.sh
 
 `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-Note: Install the terminal CLI tools
-
 ### Tools & Software (via Homebrew)
 
-- google chrome
-- node.js
-- subversion (for v1.8)
+**Via Homebrew**
+
+`brew install ...`
+
+- node
+- subversion
 - git
 - bash-completion
-- cask
-    - shuttle
-    - java (oracle)
-    - atom text editor
-    - slack
-    - android-sdk
-    - android studio
-    - eclipse
+- android-sdk
+
+**Via Cask**
+
+`brew cask install ...`
+
+- [shuttle](http://fitztrev.github.io/shuttle/)
+- [spectacle](https://www.spectacleapp.com/)
+- java
+- [atom](https://atom.io/)
+- [eclipse-ide](https://eclipse.org/downloads/)
+- slack
+- android-studio
+- google-chrome
