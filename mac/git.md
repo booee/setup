@@ -12,7 +12,7 @@ A setup guide for initializing and improving the git CLI experience
   brew install git bash-completion
 ```
 
-### Setup
+### Basic Setup
 
 1. Configure the global users configs
 ```
@@ -37,6 +37,31 @@ A setup guide for initializing and improving the git CLI experience
   source $(brew --prefix)/etc/bash_completion
   GIT_PS1_SHOWDIRTYSTATE=true
   export PS1='\u@\h: \w$(__git_ps1) 🧀  '
+```
+
+### Using a commit template
+
+1. Create `~/.gitmessage`, and add the desired template within. See below for an example
+
+1. Set the global config to utilize the template when committing via  
+```
+  git config --global commit.template "~/.gitmessage"
+```
+
+##### Example template file
+```
+  # 50-character subject
+  #------------------------------------------------#
+
+
+
+  # 72-character wrapped description
+  #----------------------------------------------------------------------#
+
+
+
+
+  # Remember to include any related issue/tracking markup
 ```
 
 ### Resources
