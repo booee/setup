@@ -21,10 +21,12 @@ brew install git bash-completion
   
   ... etc
   ```
+  
 1. Create `~/.gitexcludes` and include the following:  
   ```
   .DS_Store
   ```
+  
 1. Integrate into the terminal prompt by updating `~/.bash_profile` to include  
   ```
   # Bash completion is where it's at
