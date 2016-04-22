@@ -42,13 +42,7 @@ brew install git bash-completion
 
 ### Using a commit template
 
-1. Create `~/.gitmessage`, and add the desired template within. See below for an example
-2. Set the global config to utilize the template when committing via  
-  ```
-  git config --global commit.template "~/.gitmessage"
-  ```
-
-##### Example template file
+1. Create `~/.gitmessage`, and include something like the following:
   ```
   # 50-character subject
   #------------------------------------------------#
@@ -60,8 +54,11 @@ brew install git bash-completion
   
   
   
-  
-  # Remember to include any related issue/tracking markup
+  ```
+
+2. Set the global config to utilize the template when committing via  
+  ```
+  git config --global commit.template "~/.gitmessage"
   ```
 
 ### Resources
