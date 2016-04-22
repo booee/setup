@@ -6,16 +6,20 @@ http://brew.sh
 
 - sudo permissions for current user
 - Command Line Tools via  
-```
+  ```
   xcode-select --install
-```
+  ```
 
 ### Install
 
-1. In terminal, execute  
-```
+1. Install brew via  
+  ```
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+  ```
+1. Verify brew intall via  
+  ```
+  brew help
+  ```
 
 ### Some popular installs
 
