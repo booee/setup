@@ -16,9 +16,15 @@ http://brew.sh
   ```
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   ```
+  
 1. Verify brew intall via  
   ```
   brew help
+  ```
+  
+1. Setup Caskroom via
+  ```
+  brew cask
   ```
 
 ### Some popular installs
