@@ -1,2 +1,12 @@
 alias ll='ls -l'
 alias cdw='cd ~/workspace'
+
+# Open git repo in browser 
+function repo() {
+  giturl=$(git config --get remote.origin.url)
+  if [ "$giturl" == "" ]; then
+     echo "Not a git repository or no remote.origin.url set"
+  else
+    open $giturl
+  fi
+}
