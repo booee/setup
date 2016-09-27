@@ -22,9 +22,9 @@ brew install git bash-completion
   ... etc
   ```
   
-1. Create `~/.gitexcludes` and include the following:  
+1. Create & configure the global ignore:  
   ```
-  .DS_Store
+  echo .DS_Store >> ~/.gitexcludes
   ```
   
 1. Integrate into the terminal prompt by updating `~/.bash_profile` to include  
